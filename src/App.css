@@ -1,0 +1,35 @@
+:root {
+  --background: rgb(21, 24, 37);
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background: linear-gradient(90deg, rgb(28, 28, 255), rgb(99, 99, 255));
+}
+.App {
+  width: 500px;
+  text-align: center;
+  background-color: var(--background);
+  padding: 1em;
+  margin: 3em auto;
+  border-radius: 5px;
+  min-height: 450px;
+}
+h1 {
+  font-size: 1.7em;
+  color: white;
+  margin: 5px 0 15px 0;
+}
+
+#developerDiv {
+  text-align: center;
+  margin-top: -15px;
+}
+#designedBy {
+  color: white;
+}
+#developer {
+  color: rgb(229, 255, 0);
+}
