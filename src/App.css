@@ -16,6 +16,7 @@ body {
   margin: 3em auto;
   border-radius: 5px;
   min-height: 450px;
+  transition: width 1s ease-in-out;
 }
 h1 {
   font-size: 1.7em;
@@ -32,4 +33,10 @@ h1 {
 }
 #developer {
   color: rgb(229, 255, 0);
+}
+
+@media screen and (width <= 650px) {
+  #app {
+    width: 400px;
+  }
 }
